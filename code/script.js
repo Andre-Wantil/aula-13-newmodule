@@ -1,18 +1,17 @@
-const Livro = {
-  constructor(titulo, autor, descricao, imagem) {
+function Livro(titulo, autor, descricao, imagem) {
     this.titulo = titulo;
     this.autor = autor;
     this.descricao = descricao;
     this.imagem = imagem;
-  },
+
   // Adiciona um livro à biblioteca
-  adicionarLivro: function (livro) {},
+  adicionarLivro = function (livro) {},
 
   // Remove um livro da biblioteca com base no título
-  removerLivro: function (titulo) {},
+  removerLivro = function (titulo) {},
 
   // Exibe todos os livros na interface
-  exibirLivros: function () {}
+  exibirLivros = function () {}
 };
 
 // Adiciona livros à biblioteca
